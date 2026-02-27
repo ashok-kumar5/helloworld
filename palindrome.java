@@ -5,7 +5,7 @@ public class palindrome {
         if (args.length > 0) {
             input = args[0];
         } else {
-            input = "init"; // default value
+            input = "Level"; // default value
         }
 
         String cleaned = input.replaceAll("\\s+", "").toLowerCase();
